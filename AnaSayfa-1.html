@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehmet's Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0056b3;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #004494;
+        }
+        .content {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #007bff;
+        }
+        .skills, .bio, .articles {
+            margin-bottom: 40px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #007bff;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mehmet Almas</h1>
+    </header>
+
+    <nav>
+        <a href="#bio">Biography</a>
+        <a href="#skills">Skills</a>
+        <a href="#articles">Articles</a>
+        <a href="#library">Library</a>
+    </nav>
+
+    <div class="content">
+        <section id="bio" class="bio">
+            <h2>Biography</h2>
+            <p>Hello! I'm Mehmet, a passionate developer with a love for coding and technology. Currently, I'm focused on enhancing my skills in web development, particularly in Java, Python, and frontend technologies.</p>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Web Development</li>
+                <li>Database Management</li>
+            </ul>
+        </section>
+
+        <section id="articles" class="articles">
+            <h2>Articles</h2>
+            <article>
+                <h3>My Thoughts on Web Development</h3>
+                <p>Web development is an ever-evolving field, and staying updated with the latest technologies is crucial...</p>
+            </article>
+            <article>
+                <h3>The Power of Java in Modern Development</h3>
+                <p>Java continues to be a robust and versatile language, offering developers a powerful toolset for building scalable applications...</p>
+            </article>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Mehmet's Personal Website</p>
+    </footer>
+
+</body>
+</html>
